@@ -1,0 +1,700 @@
+---
+title: "Place, Values, and Public Opinion About Climate Change in South Carolina"
+bibliography: /Users/nowlinmc/Dropbox/refs.bib
+csl: /Users/nowlinmc/Dropbox/Projects/Manuscripts/csl/american-political-science-association.csl
+output:
+  word_document:
+    reference_docx: /Users/nowlinmc/Dropbox/Projects/Manuscripts/template.docx
+---
+
+```{r setup, include=FALSE, message=FALSE}
+knitr::opts_knit$set(root.dir = normalizePath(".."))
+
+# code to incorporate comments and changes from Word doc 
+# redoc::dedoc("manuscript/sc-climate-change-views.docx", overwrite = TRUE)
+```
+
+Introduction
+============
+
+In the United States, coastal communities are experiencing ever growing
+populations and urban sprawl that outpace inland communities. This is certainly
+the case for coastal communities in South Carolina. According to data from the
+U.S. Census Bureau, between 2010 and 2019 the population of the Charleston, S.C.
+Metro Area grew by 20.7 percent and the Myrtle Beach, S.C. Metro Area grew by
+28.3 percent. As the population of coastal communities in South Carolina
+continues to grow, more people and infrastructure will be put at risk from
+natural hazards that are likely to be exacerbated by climate change
+[@neumannFutureCoastalPopulation2015]. Within the last few years, the state of South Carolina
+has experienced several major hurricane and flooding events including the
+historic flood of 2015, as well as Hurricane's Matthew in 2016, Irma in 2017, and Florence
+in 2018.
+
+Despite the clear scientific consensus regarding the anthropogenic causes of and
+risks posed by climate change, some in the public are skeptical about the causes
+and consequences of climate change. Much of this skepticism is driven by values
+such as political beliefs or cultural beliefs.[^1] However, as more individuals,
+particularly those in coastal communities, are exposed to climate change
+associated risks, will that have an impact on their views of climate change? 
+Which matters more for views about climate change, cultural and political beliefs or living in a
+coastal community?
+
+Polarization among both elites and the public regarding climate change is driven
+in large part by core values, such as political ideology, that inform and guide
+the opinions that individuals develop about particular issues. With regard to
+complex scientific and technical issues like climate change, opinions may be
+based less on the underlying science and more on the particular policy solution
+[@campbellSolutionAversionRelation2014]. For example, if climate change requires government
+actions or regulations, then conservatives and others that are generally opposed
+to government intervention conclude that climate change must not be a problem.
+If science is seen as implying particular solutions to problems that run counter
+to beliefs, then there is reason to doubt the science.
+
+Core values are implicated in how the public views climate change; however, the
+public is, by-and-large, not consistently ideological in terms of conservative
+and liberal [see @kinderNeitherLiberalConservative2017]. Yet, this does not necessarily mean that the
+mass public lacks an underlying structure of core values [@ripbergerCulturalTheoryMeasurement2014].
+One measure of values, cultural theory, drawn from the cultural theory of risk,
+has been shown to be a consistent measure of values for those with little
+political sophistication [@ripbergerReconsideringRelationshipCultural2012], and for those that are
+non-ideological [@jacksonTheoryPreferenceFormation2015].
+
+In this paper, we leverage an original survey of South Carolina residents
+collected in 2017 to address questions regarding the influence of *values* ---
+specifically those derived from the cultural theory of risk --- and *place* ---
+living in a coastal community --- on views about climate change. Specifically,
+we asked respondents if they believe climate change is happening and the
+certainty of that belief; the level of risks they believe climate change poses;
+their level of concern regarding sea-level rise; and their concern regarding
+flooding in their local area. Overall, we find that cultural values,
+particularly egalitarian worldviews, are the most important influences on
+views about climate change and its associated risks. In addition, we find that
+values are most strongly related to climate change views when climate change is
+explicitly mentioned (i.e., climate change is happening, and the risks posed by
+climate change). Place attachments, specifically living in a coastal county, are
+more influential with concerns about sea-level rise and flooding than they are
+with climate change beliefs. These results point to a values-based
+disconnect between concern about climate change generally and place-based
+concerns about specific climate change impacts.
+
+Cultural Theory of Risk
+=======================
+
+The cultural theory of risk, initially developed by Mary Douglas and Aaron
+Wildavsky [@douglasRiskCultureEssay1982], posits that risk
+perceptions are formed based on the ways in which preferred societal structures
+and relationships could be threatened. As noted by @wildavskyTheoriesRiskPerception1990,
+"Among all possible risks, those selected for worry or dismissal are functional
+in the sense that they strengthen one of these ways of life and weaken the
+others" (44). Structures and relationships in society are grounded in two
+dimensions that include a *grid* dimension that proscribes various rules and
+roles that structure society and a *group* dimension that proscribes the
+relationships between the individual and the community. On the grid dimension,
+the characterization of high-grid refers to individuals who prefer more rigid
+social structures with defined rules for engaging with others, while low grid
+refers to more *laissez-faire* structures where individuals are free to manage
+social relations on their own. For the group dimension, the characterization of
+high-group refers to individuals who are highly connected and cohesive, while
+low-group refers to individuals who are more individualized and independent.
+
+When combined, the grid and group dimensions produce four ways-of-life that act
+as guideposts for an idealized social structure. The ways-of-life form the basis
+of four cultural worldviews including hierarchy, egalitarian, individualist, and
+fatalist. Figure 1 shows the placement of each cultural worldview on the grid
+and group dimensions. Understanding these four cultural worldviews can provide
+insights about how individuals perceive risks across a variety of domains
+[@tanseyCulturalTheoryRisk1999; @johnsonCulturalTheoryContributions2020].
+
+**Figure 1: about here**
+
+Starting with the hierarchical worldview, hierarchs are associated with being
+high on both the grid and group dimensions. Hierarchical individuals place
+emphasis on maintaining the status quo of the "natural order" of society and are
+averse to social disruptions, demonstrations, and crime which have the potential
+to threaten this order. They also tend to trust expert knowledge, often
+accepting risks as long as the risk is justified by reputable individuals or
+groups, such as government or subject experts.
+
+The egalitarian worldview is associated with the low-grid and high-group
+dimensions. Individuals with this characteristic are skeptical towards expert
+knowledge due to perceived potential for misuse of authority and are likely to
+support actions that promote social equality. Egalitarians also oppose
+destructive human intervention with nature (i.e., development, deforestation),
+because they view nature as fragile and vulnerable. Egalitarians are likely to
+be opposed to increasing environmental risks due to the fear of potentially
+causing irreversible damage to the ecosystem and promoting actions which
+increase the likelihood of placing negative conditions on the future of society.
+In sum, those who fall within the egalitarian worldview are likely to have
+heightened concerns regarding social and environmental risks.
+
+Individualistic worldviews are associated with the low-grid, low-group
+dimensions. At the center of this worldview is the concern for freedom and
+opposition towards any action which may obstruct, limit, or remove individual
+rights. Individualists accept risks as potential opportunities with the
+exception that those risks do not have a negative impact on individual rights.
+Individualists often oppose actions such as warfare and installation of
+socialist governments, viewing them as controls on individual freedoms. They are
+likely to align with market-based economic practices, including free trade,
+minimal government intervention in markets, and accumulation of individual
+wealth. Individualists starkly contrast the egalitarians perception of nature,
+viewing nature as highly resilient to human intervention and causing them to be
+less concerned with human treatment of nature. Individualists are likely to have
+minimal concern for environmental risks.
+
+Fatalistic cultural worldviews fit within the high-grid, low-group dimensions.
+Generally, fatalists are not concerned with risk due to their perceived lack of
+authority or agency to mitigate them. Because they feel constrained by societal
+norms, fatalists will feel indifferent about risks and view risks as mostly
+brought about and decided upon by others. Since fatalists have the perception
+that they lack the agency to mitigate risks, they often strive to distance
+themselves from learning about risks due to their unavoidable nature. From this
+viewpoint, nature also does not provide any clues to the moral status of human
+interventions, accepting that nature is chaotic, and individuals must solve
+problems with nature as they present themselves. Those who align closely with a
+fatalist worldview are likely to have minimal concern for risks in general,
+hinging on the lack of perceived capability to mitigate risks themselves.
+
+Cultural theory has been applied extensively in the energy and environmental policy
+domains, given that risk and perceptions of risk are entangled in decisions
+about energy production and use as well as environmental and natural resource
+management. For example, what are the risks associated with nuclear technology
+versus the benefit of a low-carbon energy source? What are the risks of climate
+change on the natural environment versus the risks of regulation of energy
+production? The worldviews exemplified by the cultural theory of risk inform how
+individuals evaluate such risks and weigh risk trade-offs. Indeed, cultural
+worldviews have been shown to be predictive of attitudes regarding a host of
+energy and environmental issues including the New Ecological Paradigm (NEP)
+scale [@nowlinEnvironmentalPolicymakingEra2019], climate change
+[@jonesLeadingWayCompromise2011; @kahanPolarizingImpactScience2012; @nowlinCulturalTheoryPartisanship2020], weather perceptions
+[@goebbertWeatherClimateWorldviews2012], nuclear energy
+[@vandegraaffUnderstandingNuclearControversy2016], nuclear waste [@jenkins-smithModelingStigmaEmpirical2001], hydraulic
+fracturing [@boudetFrackingControversyCommunication2014], power lines [@moyerUnderstandingLocalPolicy2016], and
+renewable energy [@tumlisonWhatExplainsLocal2018; @westRenewableEnergyPolicy2010].[^2]
+
+In general, on environmental issues, such as climate change, the largest divide
+exists between egalitarians and individualists [@grendstadCulturalTheoryPostmaterialism1997].
+Egalitarians tend to more concerned than other cultural types about risks to the
+natural environment that threaten collective well-being and are seen as a
+by-product of individualistic over-consumption. For individualists, the threat
+posed to private enterprise and individual autonomy by government action is seen
+as greater than the risks associated with potential environmental degradation
+that government action would lessen or prevent. As a result, egalitarians tend
+to more concerned about climate change than individualists, whereas,
+individualists tend to be more supportive of fossil-fuel energy production than
+egalitarians. Hierarchs tend to be split on environmentalism and environmental
+concern broadly (Nowlin 2019), yet hierarchs do tend to think that climate
+change is happening, is anthropogenic, and poses both personal and sociotropic
+risks [@jonesLeadingWayCompromise2011; @nowlinCulturalTheoryPartisanship2020]. Finally, fatalists view nature, along with all
+other facets of life, as impervious to human control, therefore, they tend to
+not to be concerned about environmental issues. Given the nature of the fatalist
+worldview, we do not pose any hypotheses about how fatalists view climate
+change.
+
+In the subsequent analysis, we examine whether respondents believe that climate
+change is happening and whether it poses risks. Our risk measures include
+perceived risk from climate change generally as well as concern about two
+specific effects of climate change; sea-level rise and flooding. Based on
+previous work, we posit the following hypotheses:
+
+H1: Increasing hierarchy will be associated with *increasing* certainty that
+climate change is happening and poses risks
+
+H2: Increasing egalitarianism will be associated with *increasing* certainty
+that climate change is happening and poses risks
+
+H3: Increasing individualism will be associated with *decreasing* certainty that
+climate change is happening and poses risks
+
+Geographic Location and 'Sense of Place'
+========================================
+
+Cultural worldviews provide a values-based framework for individuals to assess
+risk. Namely, activities or events that threaten the preferred social ordering
+are those that pose the greatest risk. However, exposure to potential hazards
+can vary across temporal and spatial scales, meaning that geographic location is
+likely to play a key role in determining an individual's perception of risk. To
+this point, it is important to consider the immediacy of risk and proximity to
+which the individuals are located to said risk. Living in close proximity to
+certain natural environments has the potential for individuals to perceive risks
+to these areas as greater than those who are more distantly located. For
+example, those that live inland are not as likely to perceive climate change as
+a serious risk compared to individuals living in coastal communities that are
+likely to experience some of its immediate impacts [@brodyExaminingRelationshipPhysical2008; @hamiltonEnvironmentalViewsCoast2015; @monteroSocialPerceptionCoastal2020].
+Indeed, several studies have found place effects with regard to perceptions of
+climate and environmental issues. In a study examining residents in rural
+communities, @hamiltonPlaceEffectsEnvironmental2010 found that county level unemployment and
+population growth were significant predictors of environmental views,
+controlling for demographics and political beliefs. Those that live in areas
+with increasing populations were more concerned about the impacts of sprawl and
+more likely to support environmental regulations that restrict development. In
+addition, @goebbertWeatherClimateWorldviews2012 found that individuals were able to correctly
+identify whether their local area had experienced increased flooding and drought
+over time, but did not recognize the increase in seasonal temperatures. They found that 
+perceived temperature increases were driven by cultural worldviews. Finally,
+@bhattachanLinkingResidentialSaltwater2019 found that residents in areas most vulnerable to
+saltwater intrusion were more likely than residents less at risk to view
+intrusion as risky. These studies point to respondents being attuned to risks in
+their geographic areas and, therefore, risk perceptions aren't only
+values-based, but place-based as well.
+
+While geography certainly plays a role in determining an individual's perception
+of risk, the length of residence in these areas, either at the individual or
+generational level, may also impact the perception of risk. Drawing on one
+example, residents in subtropical, temperate regions like South Carolina may not
+perceive the impact of climate change as immediately and personally as Alaskan
+residents. Residents of Alaska are experiencing rapid erosion and changing soil structure, caused 
+by permafrost thawing over time, due to
+rising temperatures. Likewise, Alaskan residents and researchers may also
+perceive the impacts of melting permafrost differently than the indigenous
+Alaskan peoples who have extensive knowledge of the landscape to which they
+maintain their spiritual and ancestral ties [@watsonTransgressionsManMoon2014]. In this
+context, sense of place can ultimately influence how an individual perceives
+risks.
+
+Sense of place is also a factor within South Carolina coastal communities.
+@halfacreNostalgiaCatalystConservation2016 noted that sense of place in the lowcountry,
+characterized by feelings of nostalgia, act as a catalyst for conservation
+efforts for culturally significant areas in the region. She further noted how
+nostalgia from lived experiences has cultivated liberal environmental views in
+individuals living within a predominantly conservative region. Ethnographic
+evidence of coastal South Carolina residents, developed by Halfacre (2016),
+suggest sense of place plays a role in determining someone's perception of the
+environment, and likely their perception of risks relating to said environment.
+Additional work has shown a connection between place-based nostalgia and 
+conservation in other parts of the US [@seamanConservingNostalgiaExploring2019]. 
+Investigating the connections between
+geography, sense of place, and environmental concerns can provide further
+evidence to understand individual and community perceptions of risks associated
+with impacts to and from nature.
+
+Previous work has shown that residents develop a sense of place about where they
+live based on lived experiences and risk exposure that inform their views on
+issues like climate change. Therefore, we posit the following hypothesis:
+
+H4: Living in a coastal area will be associated with *increasing* certainty that
+climate change is happening and poses risks
+
+In the next section we describe the data and variables used to test our
+hypotheses.
+
+**Data and Variables**
+
+```{r load data, include=FALSE, message=FALSE}
+SCstate <- read.csv("data/SCimpute.csv", stringsAsFactors=TRUE)
+library(tidyverse)
+library(broom)
+library(sjmisc)
+library(survey)
+```
+
+```{r descriptive, include=FALSE, message=FALSE}
+hierA <- psy::cronbach(data.frame(SCstate$hier1,SCstate$hier2,SCstate$hier3))
+egalA <- psy::cronbach(data.frame(SCstate$egal1,SCstate$egal2,SCstate$egal3))
+indivA <- psy::cronbach(data.frame(SCstate$indiv1,SCstate$indiv2,SCstate$indiv3))
+fatalA <- psy::cronbach(data.frame(SCstate$fatal1,SCstate$fatal2,SCstate$fatal3))
+```
+
+The data for the following analysis comes from an original survey given to
+`r nrow(SCstate)` respondents from the state of South Carolina.[^3]
+Respondents came from a sample purchased from
+Survey Sampling International (SSI). The survey was administered through
+Qualtrics and was fielded in August 2017. In terms of demographics, the median
+age of our sample is `r round(median(SCstate$age))` , which
+matches the median age according to US Census estimates.[^4]. In our sample,
+`r round(mean(SCstate$male),2)*100` percent of the respondents identified as male and
+`r round(mean(1-SCstate$male),2)*100` percent identified as female. Our sample represents a
+slightly more female population than the actual population within the state,
+which is 51.5 percent female and 48.5 percent male. For our sample,
+`r round(mean(SCstate$white),2)*100` percent of the respondents identified as White, higher
+than the South Carolina population which is 67.3 percent White. We measured
+education attainment on 1 = less than high school to 7 = graduate or
+professional degree scale and the mean for the education scale is
+`r round(mean(SCstate$edu),2)`, indicating some college to an associate degree, which
+is similar to US Census estimates. Finally, for income we use a 1 = 0 to
+\$19,999 to 7 = \$150,000 or more scale to measure total family income for 2016.
+The mean of the income scale is `r round(mean(SCstate$inc),2)` and that indicates an
+average income between \$40,000 to \$79,999, which captures the median income of
+\$51,015. Overall, our sample is slightly more female and more White than
+the South Carolina population, therefore in the subsequent analysis we weighted
+gender and race to match the population.
+
+Climate Change Beliefs
+----------------------
+
+Our interest is examining the relationships between values, place, and 
+climate change beliefs of South Carolina residents. In the survey, we asked
+respondents several climate related questions including whether they think
+climate change is happening and, overall a majority of respondents,
+`r round(mean(SCstate$gccDummy),2)*100` percent, indicated that they think climate change is
+happening. Next we asked respondents, *how sure are you that climate change
+\[is/is not\] happening*, with 0 = not at all sure, 1 = somewhat sure, 2 = very
+sure, and 3 = extremely sure. Then, we combined the climate change is happening
+question and the certainty question to create a climate change certainty scale
+that ranges from -3 = extremely sure climate change *is not* happening to 3 =
+extremely sure climate change *is* happening. The mean for the climate change
+certainty scale is `r round(mean(SCstate$gccCertScale),2)`, which indicates that, on average,
+respondents are somewhat to very sure that climate change is happening.
+
+We also asked respondents their perceived level of risk posed by climate change
+by asking, *on the scale from 0 to 10, where 0 means no risk and 10 means
+extreme risk, how much risk do you think climate change poses for people and the
+environment*. The mean for the climate change risk question was
+`r round(mean(SCstate$gccrsk),2)`, indicating that, on average, respondents believe that
+climate change poses moderate to extreme risks. Finally, using a similar 0 to 10
+scale, we asked respondents how concerned they are about *sea-level rise* and
+*flooding in their local area*, two issues expected to be exacerbated by climate
+change. For sea-level rise concern the mean `r round(mean(SCstate$SLR),2)`, on the 0
+to 10 scale and for flooding concern the mean was `r round(mean(SCstate$flooding),2)`,
+indicating that respondents are, on average, at least moderately to somewhat
+concerned about sea-level rise and flooding.
+
+Cultural Theory Measures
+------------------------
+
+To measure cultural worldview, we used the same set of questions used in other
+cultural theory research [see @jacksonTheoryPreferenceFormation2015; @jonesLeadingWayCompromise2011; @moyerCulturalPredispositionsSpecific2019; @nowlinCulturalTheoryPartisanship2020; @ripbergerReconsideringRelationshipCultural2012; @tumlisonCulturalValuesTrust2019]. Specifically, we asked
+respondents their agreement with 12 statements, three statements for each
+cultural type, on a 1 (strongly disagree) to 7 (strongly agree) scale. The
+statements were presented in random order. The three statements were then
+averaged into a 1 to 7 scale for each cultural type. As shown below, the
+Cronbach's $\alpha$ for each cultural worldview scale indicates sufficient
+reliability.
+
+For *hierarchs* the three statements are below. The mean of the 1 to 7 hierarch
+scale is `r round(mean(SCstate$hier),2)` and the Cronbach's $\alpha$ =
+`r round(hierA$alpha,2)`.
+
+-   The best way to get ahead in life is to work hard to do what you are told to
+    do
+
+-   Society is in trouble because people do not obey those in authority
+
+-   Society would be much better off if we imposed strict and swift punishment
+    on those who break the rules
+
+For *egalitarians* the mean for the scale is `r round(mean(SCstate$egal),2)` and the
+Cronbach's $\alpha$ = `r round(egalA$alpha,2)`. The egalitarian questions
+include:
+
+-   What society needs is a fairness revolution to make the distribution of
+    goods more equal
+
+-   Society works best if power is shared equally
+
+-   It is our responsibility to reduce differences in income between the rich
+    and the poor
+
+For *individualists* the mean for the scale is `r round(mean(SCstate$indiv),2)` and the
+Cronbach's $\alpha$ = `r round(indivA$alpha,2)`. The questions were:
+
+-   Even if some people are at a disadvantage, it is best for society to let
+    people succeed or fail on their own
+
+-   Even the disadvantaged should have to make their own way in the world
+
+-   We are all better off when we compete as individuals
+
+Finally, for *fatalists* the mean for the scale is `r round(mean(SCstate$fatal),2)` and
+the Cronbach's $\alpha$ = `r round(fatalA$alpha,2)`. The fatalist questions
+include:
+
+-   The most important things that take place in life happen by chance
+
+-   No matter how hard we try, the course of our lives is largely determined by
+    forces beyond our control
+
+-   For the most part, succeeding in life is a matter of chance
+
+Apart from cultural worldviews, we also measured political beliefs including
+ideology and partisanship. Political beliefs are strongly associated with views
+about climate change, with conservatives and Republicans less likely to think
+climate change is happening or poses a risk than liberals and Democrats
+[@dunlapPoliticalDivideClimate2016; @hamiltonEducationPoliticsOpinions2011; @mccrightPoliticalOrientationModerates2011]. For ideology we asked respondents to place themselves
+on a 1 to 7 scale, with 1 = strongly liberal, 4 = middle of the road, and 7 =
+strongly conservative. The mean for ideology was `r round(mean(SCstate$ideology),2)`,
+which is just between "middle of the road" and slightly conservative. For
+partisanship, we combined two questions -- *with which party do you most
+identify* and *how strongly do you identify with that party* -- to create a 1 to
+7 partisanship scale.[^5] The partisanship scale ranges from 1 = strong
+Democrat, 4 = true independent, 7 = strong Republican and the mean of the scale
+is `r round(mean(SCstate$partisan),2)`, which indicates an independent to Republican lean.
+
+Measure of Place
+----------------
+
+For place we asked respondents whether they lived in one of the coastal counties
+in South Carolina including Beaufort, Berkeley, Charleston, Colleton,
+Dorchester, Georgetown, Horry, and Jasper. Overall, `r table(SCstate$coastCount)[2]` or
+`r round(mean(SCstate$coastCount),2)*100` percent of respondents indicated that were from one of
+the eight coastal counties. This is similar to the 27 percent of the population
+of South Carolina that is estimated to live in a coastal area.[^6] In addition,
+as a control measure we asked respondents how long they have been a resident of
+their current county with 1 = less than two years, 2 = 2 to 5 years, 3 = 5 to 10
+years, 4 = 10 to 20 years, and 5 = more than 20 years. The average on the 1 to 5
+measure was `r round(mean(SCstate$resident),2)`.
+
+Analysis and Results
+====================
+
+```{r analysis, include=FALSE, message=FALSE}
+## weighted 
+dataUnweighted <- svydesign(ids=~1, data=SCstate)
+malePop <- data.frame(male = c("0","1"), Freq = nrow(SCstate) * c(0.52, 0.48))
+whitePop <- data.frame(white = c("0","1"), Freq = nrow(SCstate) * c(0.33, 0.67))
+dataRake <- rake(design = dataUnweighted,
+                 sample.margins = list(~male, ~white),
+                 population.margins = list(malePop, whitePop))
+
+summary(gccCertModelW <- svyglm(gccCertScale~hier+egal+indiv+fatal+ideology+partisan+coastCount+resident+age+male+white+edu+inc, design=dataRake))
+summary(gccRskolsW <- svyglm(gccrsk~hier+egal+indiv+fatal+ideology+partisan+coastCount+resident+age+male+white+edu+inc, design=dataRake))
+summary(SLRolsW <- svyglm(SLR~hier+egal+indiv+fatal+ideology+partisan+coastCount+resident+age+male+white+edu+inc, design=dataRake))
+summary(floodolsW <- svyglm(flooding~hier+egal+indiv+fatal+ideology+partisan+coastCount+resident+age+male+white+edu+inc, design=dataRake))
+
+stargazer::stargazer(gccCertModelW, gccRskolsW, SLRolsW, floodolsW, type = "html", 
+                     title = "Table 1: Regression Estimates of Climate Change Beliefs", align=TRUE, 
+                     dep.var.labels = c("Climate Change Certainty","Climate Change Risk", 
+                                        "Sea-Level Rise Concern", "Flooding Concern"), 
+                     covariate.labels = c("Hierarch", "Egalitarian", "Individualist", "Fatalist", "Ideology (more conservative)", 
+                                          "Partisanship (more Republican)", "Coastal County", "Time as Resident","Age","Gender (Male=1)", 
+                                          "Race (White=1)","Education","Income"),
+                     no.space=TRUE, header=FALSE, out = "manuscript/table1w.doc") 
+# plots 
+library(ggplot2)
+sjPlot::set_theme(base = theme_bw())
+
+gccCertPlotW <- sjPlot::plot_model(gccCertModelW, terms = c("hier", "egal", "indiv", "fatal", "ideology","partisan","coastCount","resident"), 
+                                  type = "std", sort.est = TRUE, show.values = TRUE, value.offset = .4, colors = "bw",
+                                  title = "Climate Change Certainty", 
+                                  axis.labels = c("Individualist", "Ideology", "Partisanship", "Hierarch",  "Fatalist", "Time as Resident", "Coastal County", 
+                                                  "Egalitarian")) + ylim(-.75,.75) + xlab("")
+
+gccRskPlotW <- sjPlot::plot_model(gccRskolsW, terms = c("hier", "egal", "indiv", "fatal", "ideology","partisan","coastCount","resident"), 
+                                  type = "std", sort.est = TRUE, show.values = TRUE, value.offset = .4, colors = "bw",
+                                  title = "Climate Change Risk", 
+                                  axis.labels = c("Individualist", "Partisanship",  "Ideology", "Time as Resident", "Hierarch", "Fatalist", "Coastal County", 
+                                                  "Egalitarian")) + ylim(-1,1)
+
+gccSLRPlotW <- sjPlot::plot_model(SLRolsW, terms = c("hier", "egal", "indiv", "fatal", "ideology","partisan","coastCount","resident"), 
+                                  type = "std", sort.est = TRUE, show.values = TRUE, value.offset = .4, colors = "bw",
+                                  title = "Sea-Level Rise Concern", 
+                                  axis.labels = c("Partisanship", "Individualist","Fatalist", "Time as Resident", "Ideology", "Hierarch", "Coastal County", 
+                                                  "Egalitarian")) + ylim(-1,2)
+
+gccFloodPlotW <- sjPlot::plot_model(floodolsW, terms = c("hier", "egal", "indiv", "fatal", "ideology","partisan","coastCount","resident"), 
+                                  type = "std", sort.est = TRUE, show.values = TRUE, value.offset = .4, colors = "bw",
+                                  title = "Flooding Concern", 
+                                  axis.labels = c("Individualist", "Partisanship", "Ideology", "Time as Resident", "Fatalist", "Hierarch", "Coastal County", 
+                                                  "Egalitarian")) + ylim(-1,2.75)
+
+ggsave("fig-output/fig2.png", gridExtra::grid.arrange(gccCertPlotW, gccRskPlotW, nrow = 2))
+ggsave("fig-output/fig3.png", gridExtra::grid.arrange(gccSLRPlotW, gccFloodPlotW, nrow = 2))
+```
+
+We posited several hypotheses regarding how cultural worldviews and place inform
+views about climate change. As noted, we expect increasing hierarchy and
+increasing egalitarianism to be associated with increasing certainty that
+climate change is happening and that it poses risks (H1 and H2). Conversely, we
+expect increasing individualism to be associated with decreasing certainty that
+climate change is happening and poses risks (H3). With regard to place, we
+expect that living in a coastal county is associated with believing that climate
+change is happening, and it poses risks (H4).
+
+To test our hypotheses, we use linear regression to examine the relationship
+between climate change beliefs, cultural theory, and place. Specifically, we
+examined the certainty that climate change is occurring, the risks posed by
+climate change, the concern for sea-level rise, and the concern for flooding as
+a function of cultural worldviews and living in a coastal county while
+controlling for political beliefs, time as resident, and demographics. The
+results are shown in Table 1.[^7]
+
+**Table 1: about here**
+
+Looking first to climate change certainty (column 1), we find, consistent with
+H2, that increasing egalitarianism is associated with an increase in certainty
+that climate change is happening. Additionally, and as expected (H3), increasing
+individualism is associated with decreasing certainty that climate is happening.
+However, against expectations increasing hierarchy (H1) and living in a coastal
+county (H4) are not associated with climate change certainty. For political
+beliefs, increasing conservatism and increasing Republicanism is associated with
+a decrease in climate change certainty (at p$<$ 0.10 for partisanship). With
+regard to the demographic control variables, older respondents expressed less
+certainty that climate is happening than younger respondents. Those with more
+education were also more likely than those with less education to think that
+climate change is happening (at p$<$ 0.10).
+
+A similar pattern holds for the perceived risks of climate change with regard to
+cultural worldviews. As shown in Table 1 column 2, increasing egalitarianism is
+associated with an increase in perceived climate change risks (H2), whereas, an
+increase in individualism is associated with a decrease in risk perception (H3).
+In addition, and as expected, those that live in coastal counties were more
+likely to see climate change as a risk than those in other parts of the state,
+at p$<$ 0.10 (H4). Conservatives and Republicans were less likely to view
+climate change as risky than liberals and Democrats and those with more
+education were likely to view it as riskier than those with less education.
+
+Looking to both sea-level rise and flooding concern (columns 3 and 4 in Table
+1), we see that increasing egalitarianism is associated with increased concern
+for both sea-level rise and flooding (H2). Additionally, increasing hierarchy is
+associated with increased concern for flooding at p$<$ 0.10. Also, increasing
+Republicanism was associated with a decrease in concern for sea-level rise and
+for flooding at p$<$ 0.10. For place, respondents in coastal counties were more
+likely to be concerned about sea-level rise and flooding than were respondents
+in other parts of South Carolina (H4). Finally, older respondents were less
+likely than younger respondents, at p$<$ 0.10, to be concerned about increased
+flooding.
+
+Next, we examine the magnitude of the impacts of cultural worldviews,
+political beliefs, and place using the standardized regression coefficients
+from the models in Table 1.[^8] The standardized regression coefficients
+allows us to examine the relative impact of each of the independent variables on the
+dependent variable. With this approach, we can see if values or place matter
+more for climate change views. Figure 2 shows the standardized regression
+coefficients, arranged by size from largest to smallest, for the climate
+change certainty model and the climate change risk model. In addition, Figure
+2 indicates the statistical significance of each of the standardized
+coefficients.
+
+**Figure 2: Standardized Regression Coefficients of Climate Change Beliefs about here**
+
+As shown and looking at the absolute value of the coefficients, the egalitarian
+scale has the largest effect on climate change certainty, followed by the
+individualist scale and ideology. For climate change risk, egalitarian and
+individualist worldviews are significant as are political beliefs. Overall,
+egalitarian beliefs have the largest impact on perceived climate change risk,
+followed by individualist beliefs, then partisanship, and finally ideology.
+Next, we examine the standardized regression coefficients for sea-level rise and
+flooding concern, and those results are shown in Figure 3.
+
+**Figure 3: Standardized Regression Coefficients of Sea-Level Rise and Flooding Concern about here**
+
+For sea-level rise concern, egalitarian beliefs had the largest impact, followed
+by living in a coastal county and, lastly, partisanship (more Republican). With
+regard to flooding, only egalitarianism and living in a coastal county were
+significant, with egalitarian beliefs having a larger impact than living in a
+coastal county.
+
+Discussion
+==========
+
+In this paper, we examined the influence of cultural worldviews and place on
+views about climate change in South Carolina. As expected, increasing
+egalitarianism was associated with increased certainty that climate change is
+happening and an increased perception of risk from climate change, as well as
+increasing concern for sea-level rise and flooding. Indeed, egalitarianism was
+the strongest predictor of climate change views, as indicated by the
+standardized regression results shown in Figures 2 and 3. Additionally,
+individualism was associated with decreased certainty that climate change is
+happening and decreased perceptions of risk, with individualism being the second
+strongest predictor of those views (see Figures 2 and 3). However, there was no
+association with individualism and concerns over sea-level rise and flooding.
+This seeming disconnect may be because individualists tend to see threats to
+individual freedom and economic activity as risks, therefore, they view
+government regulations to address climate change as a larger risk than climate
+change itself. To date, there has not been as much discussion
+of government activities to address sea-level rise and flooding, so these
+aspects of climate change have not become as politicized. However, as
+governments in coastal communities start to initiate ways to address sea-level
+rise and flooding, such as building a large seawall, these efforts may start to
+shift the views of individualists. On the other hand, sea-level rise and
+flooding do have the potential to disrupt individual and commercial activity,
+which could be a concern for individualists. Further research should examine
+how individualists view risks associated with the effects of climate change that
+may cause economic disruption as well as their views on how governments at all
+levels should address those risks.
+
+We also expected that hierarchs would be more likely to believe that climate
+change is happening and poses risks; however, we found that increasing hierarchy
+was only associated with a slight increase in concerned for flooding. As noted,
+previous research has found that hierarchs, perhaps attuned to scientists and
+other expert knowledge, tend to believe that climate is happening and presents
+risks for individuals and society. Yet, recent work has found a divide between
+hierarchs that are politically conservative and those that are politically
+liberal on climate change beliefs, with conservative hierarchs not likely to
+believe that climate change poses risks [@nowlinCulturalTheoryPartisanship2020]. It is
+possible that hierarchs in South Carolina are more politically conservative than
+hierarchs in other areas and are, therefore, less likely to think climate change
+is happening or a risk. Future research should further
+example the ideological interactions with cultural worldviews and how those
+interactions might impact views about polarized political issues.
+
+For place impacts, we found that respondents living in a coastal county were
+more likely than those in other parts of the state to view climate change as a
+risk (at p $<$ 0.10) and to be concerned about sea-level rise and flooding. This
+was as expected given that those in coastal communities are, in many ways, on
+the "front lines" of climate change and likely to experience many of its effects
+such as sea-level rise and the resulting increased storm surges and increased
+flooding first-hand. Interestingly, those in coastal counties were no more
+likely to be certain that climate change is happening even as they were more
+likely to see it and its effects as cause for concern. It is possible that 
+coastal residents recognized changes within the landscape caused by climate
+change related impacts, but do not prescribe to climate change as a reality or
+associate it with the observable impacts. This is perhaps because of the politicized nature of the term "climate change"
+compared to the lived experiences of increased flooding. Finally, living in a
+coastal county was second only to increasing egalitarianism as a predictor of
+concern for sea-level rise and flooding. Once again, this is likely because of
+the experiences of those living in coastal communities. Our measures of place
+are at the county level and, therefore, are relatively rough. More precise
+measures, perhaps distance from the coast, would give a better sense of how
+place impacts climate change views. Future research should try and obtain more
+precise measures of location and compare those to cultural wordlviews and
+political beliefs.
+
+Conclusion
+==========
+
+Over the last few years the state of South Carolina has experienced several
+major flooding events that were likely exacerbated by climate change. These
+types of events are likely to intensify in the coming years. Despite the risks,
+as well as the strong scientific consensus regarding the causes and consequences
+of climate change, many do not think climate change is happening or that it is a
+matter of concern. In this paper, we examined both values and place as possible
+explanations for how residents of South Carolina view climate change.
+
+Overall, we find that values, particularly egalitarian worldviews, are the most
+consistent and significant predictor of climate change beliefs. The impacts of
+egalitarianism on climate change beliefs are larger than those of place, even
+though residents living in coastal communities are likely to face greater risks
+from climate change than those in other parts of the state. Yet, place effects
+are important, with those living in coastal counties more concerned about
+sea-level rise and flooding in their areas. However, our findings point to the
+value-based divide over climate change and this divide is likely to impede
+progress on mitigation and adaptation responses to climate change at all levels
+of government in the US.
+
+\newpage
+
+References
+==========
+
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+\vspace*{-0.2in}
+\singlespace
+\noindent
+
+
+[^1]: By cultural beliefs, we are referring to the ways-of-life derived from
+    cultural theory.
+
+[^2]: In addition, cultural worldviews are associated with various myths of
+    nature regarding how resilient nature is to human interference (see
+    Thompson, Ellis, and Wildavsky 1990; Nowlin 2019; Price, Walker, and
+    Boschetti 2014)
+
+[^3]: We imputed missing data using the Amelia package (version 1.7.6) in R. For
+    more information see: <http://gking.harvard.edu/amelia/>
+
+[^4]: US Census data available here:
+    <https://www.census.gov/acs/www/data/data-tables-and-tools/data-profiles/>
+
+[^5]: Independents were asked to which party do they most lean and were recoded.
+
+[^6]: See here: <https://coast.noaa.gov/states/south-carolina.html>
+
+[^7]: As indicated, we added weights to gender and race so that our sample would
+    more closely match the population. For the analysis, we used the survey
+    package (version 4.0) in R to weight and estimate the models.
+
+[^8]: Note, we do not include control variables in the figures; however, they
+    are controlled for in the models shown.
